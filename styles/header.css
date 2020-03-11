@@ -1,0 +1,66 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.header {
+  position: relative;
+  margin: 0 auto;
+  width: 320px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff; }
+  .header__container {
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 335px;
+    width: 274px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .header__phone {
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/phone.svg); }
+  .header__sandwich {
+    background-image: url(../images/sandwich.svg);
+    width: 18px;
+    height: 12px; }
+  .header__logo {
+    width: 73px;
+    height: 48px; }
+  .header__phone-number {
+    display: none; }
+  .header__call {
+    display: none; }
+  .header__title {
+    position: relative;
+    width: 270px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    font-size: 46px;
+    line-height: 40px;
+    font-weight: 700; }
+    .header__title::before {
+      content: "";
+      position: absolute;
+      width: 35px;
+      height: 2px;
+      top: -16px;
+      background-color: #fff;
+      border-radius: 2px; }
+
+/*# sourceMappingURL=header.css.map */
