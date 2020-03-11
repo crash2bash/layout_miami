@@ -47,5 +47,8 @@ h1 {
     margin: 0 0 25px; }
   .description--outer {
     margin-bottom: 64px; }
+    @media (min-width: 700px) {
+      .description--outer {
+        margin-bottom: 152px; } }
 
 /*# sourceMappingURL=description.css.map */

@@ -96,7 +96,8 @@ h1 {
       .navigation__link--active {
         padding: 8px 24px;
         background-color: rgba(255, 255, 255, 0.1);
-        border-radius: 8px; }
+        border-radius: 8px;
+        cursor: default; }
         .navigation__link--active:hover, .navigation__link--active:focus, .navigation__link--active:active {
           color: #fff; } }
   @media (min-width: 500px) {
@@ -123,9 +124,17 @@ h1 {
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-decoration: none;
     color: #fff; }
     @media (min-width: 500px) {
       .navigation__call {
         display: none; } }
+    .navigation__call::after {
+      content: "";
+      display: block;
+      width: 111px;
+      height: 1px;
+      margin-top: 8px;
+      background-color: #fff; }
 
 /*# sourceMappingURL=navigation.css.map */

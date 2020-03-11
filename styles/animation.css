@@ -5,12 +5,12 @@
   display: block; }
 
 .showin {
-  -webkit-animation: showIn 0.5s ease-in-out forwards;
-          animation: showIn 0.5s ease-in-out forwards; }
+  -webkit-animation: showIn 0.6s ease-in-out forwards;
+          animation: showIn 0.6s ease-in-out forwards; }
 
 .showout {
-  -webkit-animation: showOut 1s ease-in-out forwards;
-          animation: showOut 1s ease-in-out forwards; }
+  -webkit-animation: showOut 0.5s ease-in-out forwards;
+          animation: showOut 0.5s ease-in-out forwards; }
 
 @-webkit-keyframes showIn {
   0% {
