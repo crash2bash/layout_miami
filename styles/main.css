@@ -411,6 +411,9 @@ h1 {
         margin: 0;
         font-size: 48px;
         line-height: 48px; } }
+  .description__link {
+    text-decoration: none;
+    color: #0075ff; }
   .description__article-title {
     margin: 0 0 16px;
     font-size: 24px;
@@ -518,6 +521,10 @@ h1 {
   .gallery__caption {
     grid-column: 1 / 3;
     grid-row: 2; }
+  .gallery__link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #0075ff; }
   .gallery--outer {
     margin-bottom: 64px; }
     @media (min-width: 700px) {

@@ -91,6 +91,10 @@ h1 {
   .gallery__caption {
     grid-column: 1 / 3;
     grid-row: 2; }
+  .gallery__link {
+    font-weight: 700;
+    text-decoration: none;
+    color: #0075ff; }
   .gallery--outer {
     margin-bottom: 64px; }
     @media (min-width: 700px) {

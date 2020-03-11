@@ -40,6 +40,9 @@ h1 {
         margin: 0;
         font-size: 48px;
         line-height: 48px; } }
+  .description__link {
+    text-decoration: none;
+    color: #0075ff; }
   .description__article-title {
     margin: 0 0 16px;
     font-size: 24px;
