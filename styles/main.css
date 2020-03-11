@@ -79,7 +79,7 @@ h1 {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 320px;
+  min-width: 320px;
   background-image: url(../images/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,6 +90,7 @@ h1 {
     padding-top: 24px;
     padding-bottom: 335px;
     width: 274px;
+    max-width: 1020px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -99,21 +100,60 @@ h1 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media (min-width: 330px) {
+      .header__container {
+        width: 90%; } }
+    @media (min-width: 500px) {
+      .header__container {
+        padding-bottom: 314px; } }
+  .header__wrapper {
+    max-width: 1020px;
+    margin: 0 auto; }
   .header__phone {
     width: 18px;
     height: 18px;
     background-image: url(../images/phone.svg); }
+    @media (min-width: 500px) {
+      .header__phone {
+        display: none; } }
   .header__sandwich {
     background-image: url(../images/sandwich.svg);
     width: 18px;
     height: 12px; }
+    @media (min-width: 500px) {
+      .header__sandwich {
+        display: none; } }
   .header__logo {
     width: 73px;
     height: 48px; }
+    @media (min-width: 500px) {
+      .header__logo {
+        width: 115px;
+        height: 76px; } }
   .header__phone-number {
     display: none; }
+    @media (min-width: 500px) {
+      .header__phone-number {
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        color: #fff; } }
   .header__call {
     display: none; }
+    @media (min-width: 500px) {
+      .header__call {
+        display: block;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 2px;
+        color: #fff; } }
   .header__title {
     position: relative;
     width: 270px;
@@ -130,6 +170,15 @@ h1 {
       top: -16px;
       background-color: #fff;
       border-radius: 2px; }
+    @media (min-width: 500px) {
+      .header__title {
+        margin: 0;
+        margin-right: auto; } }
+  .header--outer {
+    margin-bottom: 64px; }
+    @media (min-width: 500px) {
+      .header--outer {
+        margin-bottom: 104px; } }
 
 h1 {
   font-family: "Roboto", sans-serif;
@@ -147,17 +196,25 @@ h1 {
           transform: translate(0, -575px);
   top: 0;
   left: 0;
-  width: 320px;
+  width: 100%;
   height: 575px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   background-color: #0075ff;
   z-index: 2; }
+  @media (min-width: 500px) {
+    .navigation {
+      position: static;
+      height: auto;
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0);
+      background-color: transparent; } }
   .navigation__container {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 172px;
+    max-width: 300px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -172,12 +229,28 @@ h1 {
     width: 16px;
     height: 16px;
     background-image: url(../images/close.svg); }
+    @media (min-width: 500px) {
+      .navigation__close {
+        display: none; } }
   .navigation__list {
     padding: 0;
     margin: 0;
     list-style: none;
     margin-left: 21px;
     text-transform: uppercase; }
+    @media (min-width: 500px) {
+      .navigation__list {
+        margin: 0 auto;
+        width: 90%;
+        max-width: 1020px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; } }
   .navigation__item {
     margin-bottom: 32px; }
   .navigation__link {
@@ -186,6 +259,14 @@ h1 {
     font-weight: 700;
     color: #fff;
     text-decoration: none; }
+    @media (min-width: 500px) {
+      .navigation__link {
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 2px; } }
+  @media (min-width: 500px) {
+    .navigation__logo {
+      display: none; } }
   .navigation__phone {
     display: block;
     margin-left: 21px;
@@ -196,6 +277,9 @@ h1 {
     letter-spacing: 2px;
     color: #fff;
     text-decoration: none; }
+    @media (min-width: 500px) {
+      .navigation__phone {
+        display: none; } }
   .navigation__call {
     display: block;
     margin-left: 21px;
@@ -205,6 +289,9 @@ h1 {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff; }
+    @media (min-width: 500px) {
+      .navigation__call {
+        display: none; } }
 
 h1 {
   font-family: "Roboto", sans-serif;
