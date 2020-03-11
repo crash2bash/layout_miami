@@ -8,6 +8,12 @@ h1 {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal; }
+
 .header {
   position: relative;
   margin: 0 auto;
@@ -39,6 +45,7 @@ h1 {
       .header__container {
         padding-bottom: 314px; } }
   .header__wrapper {
+    width: 90%;
     max-width: 1020px;
     margin: 0 auto; }
   .header__phone {
