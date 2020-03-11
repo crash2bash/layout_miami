@@ -25,13 +25,17 @@ h1 {
       width: 1020px; } }
   .contacts__title {
     width: 161px;
+    margin: 0 auto 53px;
     font-size: 36px;
     line-height: 36px;
     letter-spacing: -1.5px;
-    margin: 0 auto 53px; }
+    color: #000; }
     @media (min-width: 1260px) {
       .contacts__title {
-        margin-bottom: 93px; } }
+        width: 219px;
+        margin-bottom: 93px;
+        font-size: 48px;
+        line-height: 48px; } }
   @media (min-width: 700px) {
     .contacts__container {
       display: grid;

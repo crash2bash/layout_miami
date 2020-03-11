@@ -25,13 +25,17 @@ h1 {
       width: 1020px; } }
   .testimonials__title {
     width: 193px;
+    margin: 0 auto 53px;
     font-size: 36px;
     line-height: 36px;
     letter-spacing: -1.5px;
-    margin: 0 auto 53px; }
-    @media (min-width: 1260px) {
+    color: #000; }
+    @media (min-width: 700px) {
       .testimonials__title {
-        margin-bottom: 93px; } }
+        width: 263px;
+        margin-bottom: 93px;
+        font-size: 48px;
+        line-height: 48px; } }
   .testimonials__list {
     padding: 0;
     margin: 0;
@@ -83,7 +87,7 @@ h1 {
     text-align: center; }
   .testimonials--outer {
     margin-bottom: 64px; }
-    @media (min-width: 1260px) {
+    @media (min-width: 700px) {
       .testimonials--outer {
         margin-bottom: 93px; } }
 
