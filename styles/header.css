@@ -41,7 +41,7 @@ h1 {
     @media (min-width: 330px) {
       .header__container {
         width: 95%; } }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__container {
         padding-bottom: 314px; } }
     @media (min-width: 1260px) {
@@ -55,26 +55,26 @@ h1 {
     width: 18px;
     height: 18px;
     background-image: url(../images/phone.svg); }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__phone {
         display: none; } }
   .header__sandwich {
     background-image: url(../images/sandwich.svg);
     width: 18px;
     height: 12px; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__sandwich {
         display: none; } }
   .header__logo {
     width: 73px;
     height: 48px; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__logo {
         width: 115px;
         height: 76px; } }
   .header__phone-number {
     display: none; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__phone-number {
         display: block;
         font-size: 16px;
@@ -86,7 +86,7 @@ h1 {
         color: #fff; } }
   .header__call {
     display: none; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__call {
         display: block;
         font-size: 16px;
@@ -119,13 +119,12 @@ h1 {
       top: -16px;
       background-color: #fff;
       border-radius: 2px; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header__title {
-        margin: 0;
-        margin-right: auto; } }
+        margin: 0 auto 0 0; } }
   .header--outer {
     margin-bottom: 64px; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .header--outer {
         margin-bottom: 104px; } }
 

@@ -94,7 +94,10 @@ h1 {
   .gallery__link {
     font-weight: 700;
     text-decoration: none;
-    color: #0075ff; }
+    color: #0075ff;
+    outline: none; }
+    .gallery__link:hover, .gallery__link:active, .gallery__link:focus {
+      color: blue; }
   .gallery--outer {
     margin-bottom: 64px; }
     @media (min-width: 700px) {

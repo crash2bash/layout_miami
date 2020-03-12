@@ -26,7 +26,7 @@ h1 {
           box-sizing: border-box;
   background-color: #0075ff;
   z-index: 2; }
-  @media (min-width: 500px) {
+  @media (min-width: 700px) {
     .navigation {
       position: static;
       height: auto;
@@ -52,7 +52,7 @@ h1 {
     width: 16px;
     height: 16px;
     background-image: url(../images/close.svg); }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__close {
         display: none; } }
   .navigation__list {
@@ -61,7 +61,7 @@ h1 {
     list-style: none;
     margin-left: 21px;
     text-transform: uppercase; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__list {
         margin: 0 auto;
         width: 90%;
@@ -84,7 +84,7 @@ h1 {
     text-decoration: none;
     -webkit-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__link {
         font-size: 12px;
         line-height: 16px;
@@ -92,7 +92,7 @@ h1 {
         padding: 5px; } }
     .navigation__link:hover, .navigation__link:focus, .navigation__link:active {
       color: #9fadc2; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__link--active {
         padding: 8px 24px;
         background-color: rgba(255, 255, 255, 0.1);
@@ -100,7 +100,7 @@ h1 {
         cursor: default; }
         .navigation__link--active:hover, .navigation__link--active:focus, .navigation__link--active:active {
           color: #fff; } }
-  @media (min-width: 500px) {
+  @media (min-width: 700px) {
     .navigation__logo {
       display: none; } }
   .navigation__phone {
@@ -113,7 +113,7 @@ h1 {
     letter-spacing: 2px;
     color: #fff;
     text-decoration: none; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__phone {
         display: none; } }
   .navigation__call {
@@ -126,7 +126,7 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     color: #fff; }
-    @media (min-width: 500px) {
+    @media (min-width: 700px) {
       .navigation__call {
         display: none; } }
     .navigation__call::after {
