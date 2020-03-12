@@ -876,6 +876,12 @@ h1 {
     color: #9fadc2; }
   .contacts__item-text {
     margin: 0; }
+  .contacts__item-link {
+    margin: 0;
+    text-decoration: none;
+    color: #0075ff; }
+    .contacts__item-link:hover {
+      color: #00f; }
   .contacts--outer {
     margin-bottom: 64px; }
     @media (min-width: 700px) {
