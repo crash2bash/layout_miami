@@ -48,6 +48,9 @@ h1 {
     margin-bottom: 48px;
     padding-top: 24px;
     padding-right: 24px; }
+    @media (min-width: 700px) {
+      .navigation__container {
+        display: none; } }
   .navigation__close {
     width: 16px;
     height: 16px;
@@ -83,7 +86,8 @@ h1 {
     color: #fff;
     text-decoration: none;
     -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out; }
+    transition: 0.3s ease-in-out;
+    outline: none; }
     @media (min-width: 700px) {
       .navigation__link {
         font-size: 12px;
@@ -99,7 +103,7 @@ h1 {
         border-radius: 8px;
         cursor: default; }
         .navigation__link--active:hover, .navigation__link--active:focus, .navigation__link--active:active {
-          color: #fff; } }
+          color: #9fadc2; } }
   @media (min-width: 700px) {
     .navigation__logo {
       display: none; } }
@@ -112,7 +116,8 @@ h1 {
     font-weight: 700;
     letter-spacing: 2px;
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    outline: none; }
     @media (min-width: 700px) {
       .navigation__phone {
         display: none; } }

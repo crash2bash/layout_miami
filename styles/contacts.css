@@ -72,8 +72,9 @@ h1 {
   .contacts__item-link {
     margin: 0;
     text-decoration: none;
-    color: #0075ff; }
-    .contacts__item-link:hover {
+    color: #0075ff;
+    outline: none; }
+    .contacts__item-link:hover, .contacts__item-link:focus, .contacts__item-link:active {
       color: #00f; }
   .contacts--outer {
     margin-bottom: 64px; }

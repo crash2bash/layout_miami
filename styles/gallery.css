@@ -97,7 +97,7 @@ h1 {
     color: #0075ff;
     outline: none; }
     .gallery__link:hover, .gallery__link:active, .gallery__link:focus {
-      color: blue; }
+      color: #00f; }
   .gallery--outer {
     margin-bottom: 64px; }
     @media (min-width: 700px) {

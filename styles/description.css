@@ -42,7 +42,10 @@ h1 {
         line-height: 48px; } }
   .description__link {
     text-decoration: none;
-    color: #0075ff; }
+    color: #0075ff;
+    outline: none; }
+    .description__link:hover, .description__link:focus, .description__link:active {
+      color: blue; }
   .description__article-title {
     margin: 0 0 16px;
     font-size: 24px;

@@ -73,19 +73,26 @@ h1 {
         width: 115px;
         height: 76px; } }
   .header__phone-number {
-    display: none; }
+    display: none;
+    outline: none; }
     @media (min-width: 700px) {
       .header__phone-number {
         display: block;
         font-size: 16px;
         line-height: 20px;
         font-weight: 700;
+        padding: 1px;
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 2px;
-        color: #fff; } }
+        color: #fff;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; } }
+    .header__phone-number:focus {
+      color: #3e3e3e; }
   .header__call {
-    display: none; }
+    display: none;
+    outline: none; }
     @media (min-width: 700px) {
       .header__call {
         display: block;
@@ -95,7 +102,9 @@ h1 {
         text-transform: uppercase;
         text-decoration: none;
         letter-spacing: 2px;
-        color: #fff; } }
+        color: #fff;
+        -webkit-transition: 0.3s ease-in-out;
+        transition: 0.3s ease-in-out; } }
     .header__call::after {
       content: "";
       display: block;
@@ -103,6 +112,8 @@ h1 {
       height: 1px;
       margin-top: 8px;
       background-color: #fff; }
+    .header__call:focus {
+      color: #3e3e3e; }
   .header__title {
     position: relative;
     width: 270px;
